@@ -1,0 +1,16 @@
+= ribbon2_hw
+
+ribbon2ハードウェア設計ファイル。
+
+== 必要なもの
+* KiCAD >= 6.0
+
+== 内容
+* `kicad/` : KiCADプロジェクトに必要なシンボル定義とフットプリント
+* `ribbon2_hw_pcb` : PCB作成用KiCADプロジェクト
+* `schematic` : 回路図
+* `bom.csv` : 部品表
+
+== ライセンス
+このリポジトリの内容は `.gitignore` ファイルを除いてすべてCC-BY 4.0のもとで提供されます。
+詳しくは `LICENSE` をご覧ください。

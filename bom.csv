@@ -1,0 +1,56 @@
+Source:,ribbon2_hw/ribbon2_hw.kicad_sch,,,,,
+Date:,Sun 27 Nov 2022 10:42:52 PM JST,,,,,
+Tool:,Eeschema (6.0.9),,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,25,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,AE1,Antenna,Device:Antenna,,~
+,,C1,100u,Device:C_Polarized,,~
+,,C2,100u,Device:C_Polarized,,~
+,,C3,470u,Device:C_Polarized,,~
+,,D1,LED,Device:LED,,~
+,,IC1,TA7368P,ToshibaDeviceAndStorage:TA7368P,,
+,,LS1,Speaker,Device:Speaker,,~
+,,Q1,MTB060P06I3,Device:Q_PMOS_GDS,,~
+,,R1,N.I.,Device:R,,~
+,,R2,1k,Device:R,,~
+,,R3,100,Device:R,,~
+,,R4,100,Device:R,,~
+,,R5,100,Device:R,,~
+,,R6,N.I.,Device:R,,~
+,,R7,100,Device:R,,~
+,,R8,1k,Device:R,,~
+,,R9,1k,Device:R,,~
+,,RV1,20kB,Device:R_Potentiometer,,~
+,,RV2,10kA,Device:R_Potentiometer,,~
+,,SW1,SW_Push,Switch:SW_Push,,~
+,,SW2,SW_Push,Switch:SW_Push,,~
+,,SW3,SW_Push,Switch:SW_Push,,~
+,,U1,XIAO_ESP32C3,Seeed:XIAO_ESP32C3,,
+,,U2,P-12031,AkizukiDenshi:P-12031,,
+,,U3,RRD-102V2.0,AkizukiDenshi:RRD-102V2.0,,
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,1,AE1,Antenna,Device:Antenna,,~
+2,2,"C1, C2",100u,Device:C_Polarized,,~
+3,1,C3,470u,Device:C_Polarized,,~
+4,1,D1,LED,Device:LED,,~
+5,1,IC1,TA7368P,ToshibaDeviceAndStorage:TA7368P,,
+6,1,LS1,Speaker,Device:Speaker,,~
+7,1,Q1,MTB060P06I3,Device:Q_PMOS_GDS,,~
+8,2,"R1, R6",N.I.,Device:R,,~
+9,3,"R2, R8, R9",1k,Device:R,,~
+10,4,"R3, R4, R5, R7",100,Device:R,,~
+11,1,RV1,20kB,Device:R_Potentiometer,,~
+12,1,RV2,10kA,Device:R_Potentiometer,,~
+13,3,"SW1, SW2, SW3",SW_Push,Switch:SW_Push,,~
+14,1,U1,XIAO_ESP32C3,Seeed:XIAO_ESP32C3,,
+15,1,U2,P-12031,AkizukiDenshi:P-12031,,
+16,1,U3,RRD-102V2.0,AkizukiDenshi:RRD-102V2.0,,
